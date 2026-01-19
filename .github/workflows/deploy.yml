@@ -9,9 +9,9 @@ jobs:
     environment: production
     steps:
       - uses: actions/checkout@v6
-        with:
-          sparse-checkout: |
-            scripts
+        # with:
+        #   sparse-checkout: |
+        #     scripts
 
       - name: Deploy to production
         uses: appleboy/ssh-action@v1

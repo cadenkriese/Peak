@@ -1,9 +1,0 @@
-{
-  "type": "craftingtweaks",
-  "version": "1.21",
-  "packs": {
-    "unpackables": [
-      "unpackable wool"
-    ]
-  }
-}

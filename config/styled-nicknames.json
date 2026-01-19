@@ -1,13 +1,13 @@
 {
-  "CONFIG_VERSION_DONT_TOUCH_THIS": 1,
+  "CONFIG_VERSION_DONT_TOUCH_THIS": 2,
   "_comment": "Before changing anything, see https://github.com/Patbox/StyledNicknames#configuration",
   "allowByDefault": true,
-  "nicknameFormat": "<r>${nickname}",
+  "nicknameFormat": "#${nickname}",
   "nicknameFormatColor": "${nickname}",
-  "maxLength": 32,
+  "maxLength": 48,
   "changeDisplayName": true,
   "changePlayerListName": false,
-  "allowLegacyFormatting": true,
+  "allowLegacyFormatting": false,
   "nicknameChangedMessage": "Your nickname has been changed to ${nickname}",
   "nicknameResetMessage": "Your nickname has been removed!",
   "defaultEnabledFormatting": {
@@ -40,5 +40,7 @@
     "dark_aqua": true,
     "reset": true
   },
-  "tooLongMessage": "<red>This nickname is too long!"
+  "tooLongMessage": "<red>This nickname is too long!",
+  "allowSpacesInNicknames": false,
+  "nicknameCantContainSpacesMessage": "<red>Nickname can't contain spaces!"
 }

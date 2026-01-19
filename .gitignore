@@ -1,10 +1,9 @@
+# macOS
 .DS_Store
-minecraft/*
-.fabric
-.fabric-installer
-.mixin.out
+
+# Secrets
 .env.secrets
 nginx/ssl
-rclone*.config
-restic/*
-backups/*
+
+# Game data
+data/

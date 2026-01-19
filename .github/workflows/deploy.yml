@@ -6,14 +6,14 @@ on:
 jobs:
   deployment:
     runs-on: ubuntu-latest
-    environment: production
+    environment: Production
     steps:
       - uses: actions/checkout@v6
-        # with:
-        #   sparse-checkout: |
-        #     scripts
+        with:
+          sparse-checkout: |
+            scripts
 
-      - name: Deploy to production
+      - name: Deploy to Production
         uses: appleboy/ssh-action@v1
         env:
           REPOSITORY_URL: '${{ github.server_url }}/${{ github.repository }}'

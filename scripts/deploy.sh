@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 if [ -d "$SERVER_ROOT" ]
 then
@@ -11,14 +11,14 @@ then
   rcon-cli 'title @a times 10 100 10'
   rcon-cli 'title @a subtitle {"text":"Peak will reboot to update in 15 seconds.","color":"#BFFFFF"}'
   rcon-cli 'title @a title {"text":"Server rebooting"}'
-  EOF
+EOF
   
   sleep 15
 
   cd "$SERVER_ROOT"
   docker compose down
   git fetch --all
-  git reset --hard origin/main
+  git reset --hard
 else
   git clone "$REPOSITORY_URL" "$SERVER_ROOT"
   cd "$SERVER_ROOT"

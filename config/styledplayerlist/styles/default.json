@@ -2,7 +2,7 @@
   "style_name": "Default",
   "update_tick_time": 10,
   "list_header": [
-    "<bold><gradient:#55FFFF:#ffffff>Peak</gradient></bold>"
+    "<gradient:#55FFFF:#ffffff>Peak</gradient>"
   ],
   "list_footer": [
     "<gray>TPS: %server:tps_colored% <dark_gray>|</dark_gray> <gray>Ping: <color:#ffba26>%player:ping%</color>"

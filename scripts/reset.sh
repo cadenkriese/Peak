@@ -26,7 +26,7 @@ EOF
   [[ -d "$WORLD_DIR" ]] || { echo "World directory missing"; exit 1; }
   
   max=0
-  for f in "$BACKUP_DIR"/run_*.tar.gz; do
+  for f in "$SERVER_ROOT"/backups/run_*.tar.gz; do
     [[ -e $f ]] || continue
     n=${f##*run_}
     n=${n%.tar.gz}

@@ -24,7 +24,7 @@
           "type": "permission",
           "permission": "admin"
         },
-        "format": "<dark_gray>[<gradient:#ff5c5c:#c92c2c>Admin</gradient>]</dark_gray> <reset>%player:displayname_visual%",
+        "format": "<gradient:#ff5c5c:#c92c2c>Admin</gradient> <reset>%player:displayname_visual%",
         "passthrough": false
       }
     ]

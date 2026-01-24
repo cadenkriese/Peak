@@ -2,6 +2,9 @@
 
 set -euo pipefail # Fail this script if git docker or other commands fail
 
+WORLD_DIR="$SERVER_ROOT/data/world"
+[[ -d "$WORLD_DIR" ]] || { echo "World directory missing"; exit 1; }
+
 if [ -d "$SERVER_ROOT" ]
 then
   cat <<EOF | docker exec --interactive minecraft sh
@@ -21,9 +24,6 @@ EOF
   docker compose down
   git fetch --all
   git reset --hard
-  
-  WORLD_DIR="$SERVER_ROOT/data/world"
-  [[ -d "$WORLD_DIR" ]] || { echo "World directory missing"; exit 1; }
   
   max=0
   for f in "$SERVER_ROOT"/backups/run_*.tar.gz; do

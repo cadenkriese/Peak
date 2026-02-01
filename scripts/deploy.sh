@@ -16,7 +16,6 @@ EOF
   sleep 15
 
   cd "$SERVER_ROOT"
-  docker compose down
   git fetch --all
   git reset --hard
 else
@@ -25,5 +24,5 @@ else
 fi
 
 docker compose pull
+docker compose up -d minecraft
 docker image prune -f
-docker compose up -d

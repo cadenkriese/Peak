@@ -16,11 +16,11 @@
   "default": {
     "display_name": "${default}",
     "message_formats": {
-      "chat": "<hover show_text '<white>Mob Kills: %player:statistic mob_kills%\n<gray>Distance Sprinted: %player:statistic sprint_one_cm%\n<white>Time Spent Online: %player:playtime%'>%player:displayname_visual%</hover><reset>: ${message}",
-      "joined_the_game": "<c:#eeeeee>%player:displayname_visual% joined.",
-      "joined_after_name_change": "<c:#eeeeee>${player} (formerly ${old_name}) joined.",
-      "joined_for_first_time": "<c:#eeeeee>${player} joined for the first time.",
-      "left_game": "<c:#eeeeee>%player:displayname_visual% left.",
+      "chat": "<hover show_text '<white>Mob Kills: %player:statistic mob_kills%\n<gray>Distance Sprinted: %player:statistic sprint_one_cm%\n<white>Time Spent Online: %player:playtime%'>%player:head% %player:displayname_visual%</hover><reset>: ${message}",
+      "joined_the_game": "<c:#eeeeee>%player:head% %player:displayname_visual% joined.",
+      "joined_after_name_change": "<c:#eeeeee>%player:head% ${player} (formerly ${old_name}) joined.",
+      "joined_for_first_time": "<c:#eeeeee>$%player:head% {player} joined for the first time.",
+      "left_game": "<c:#eeeeee>%player:head% %player:displayname_visual% left.",
       "base_death": "<c:#8a0200>☠</c> <white>${default_message}",
       "advancement_task": "<lang:chat.type.advancement.task:'${player}':'${advancement}'>",
       "advancement_challenge": "<lang:chat.type.advancement.challenge:'${player}':'${advancement}'>",
@@ -33,7 +33,7 @@
       "me_command": "<lang:'chat.type.emote':'${player}':'${message}'>",
       "pet_death": "${default_message}"
     },
-    "link_style": "<underline><c:#0000EE>${link}",
+    "link_style": "<underline><c:#9090e2>${link}",
     "spoiler_style": "<gray>${spoiler}",
     "spoiler_symbol": "▌",
     "formatting": {
@@ -93,10 +93,10 @@
       "require": {
         "type": "permission",
         "permission": "admin",
-        "operator": 3
+        "operator": "admins"
       },
       "message_formats": {
-        "chat": "<gradient:#ff5c5c:#c92c2c>Admin</gradient> <reset><hover show_text '<white>Deaths: %player:statistic deaths%\n<gray>Mob Kills: %player:statistic mob_kills%\n<white>Distance Sprinted: %player:statistic sprint_one_cm%\n<gray>Time Spent Online: %player:playtime%'>%player:displayname_visual%</hover><reset>: ${message}"
+        "chat": "%player:head% <gradient:#ff5c5c:#c92c2c>Admin</gradient> <reset><hover show_text '<white>Deaths: %player:statistic deaths%\n<gray>Mob Kills: %player:statistic mob_kills%\n<white>Distance Sprinted: %player:statistic sprint_one_cm%\n<gray>Time Spent Online: %player:playtime%'>%player:displayname_visual%</hover><reset>: ${message}"
       },
       "formatting": {},
       "emoticons": {},

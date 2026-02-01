@@ -37,7 +37,7 @@ min_y = -20
 teleport_message = ""
 
 [compression]
-threshold = 256
+threshold = -1
 level = 6
 
 [tab_list]

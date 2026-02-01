@@ -7,6 +7,9 @@
 # Fabric API
 https://cdn.modrinth.com/data/P7dR8mSH/versions/DdVHbeR1/fabric-api-0.141.1%2B1.21.11.jar
 
+# Text Placeholder API
+https://cdn.modrinth.com/data/eXts2L7r/versions/qxjzQ9xY/placeholder-api-2.8.2%2B1.21.10.jar
+
 #################
 #               #
 #  PERFORMANCE  #

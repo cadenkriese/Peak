@@ -14,7 +14,7 @@
     "modify_visibility": false,
     "passthrough": false,
     "hidden": false,
-    "format": "%player:displayname%",
+    "format": "<color '%player:locator_color%'><atlas 'gui' 'minecraft:hud/locator_bar_dot/default_0'><reset>%player:displayname%",
     "right_text": "",
     "update_on_chat_message": true,
     "update_tick_time": -1,
@@ -24,7 +24,7 @@
           "type": "permission",
           "permission": "admin"
         },
-        "format": "<gradient:#ff5c5c:#c92c2c>Admin</gradient> <reset>%player:displayname_visual%",
+        "format": "<color '%player:locator_color%'><atlas 'gui' 'minecraft:hud/locator_bar_dot/default_0'><gradient:#ff5c5c:#c92c2c>Admin</gradient> <reset>%player:displayname_visual%",
         "passthrough": false
       }
     ]

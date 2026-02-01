@@ -28,7 +28,7 @@
       "sent_team_chat": "<lang:'chat.type.team.sent':'<hover\\:\\'<lang\\:chat.type.team.hover>\\'><suggest_command\\:\\'/teammsg \\'>${team}':'${displayName}':'${message}'>",
       "received_team_chat": "<lang:'chat.type.team.text':'<hover\\:\\'<lang\\:chat.type.team.hover>\\'><suggest_command\\:\\'/teammsg \\'>${team}':'${displayName}':'${message}'>",
       "sent_private_message": "<c:#e3f9fc>You → ${receiver}</c><white>: ${message}",
-      "received_private_message": "<c:#e3f9fc>${sender} → You</c><white>: ${message}",
+      "received_private_message": "<c:#e0d4fa>${sender} → You</c><white>: ${message}",
       "say_command": "[${player}] ${message}",
       "me_command": "<lang:'chat.type.emote':'${player}':'${message}'>",
       "pet_death": "${default_message}"

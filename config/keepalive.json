@@ -1,0 +1,10 @@
+{
+  "limboServer": {
+    "hostname": "hardcore.peaksmp.org",
+    "port": 25585
+  },
+  "destinationServer": {
+    "hostname": "hardcore.peaksmp.org",
+    "port": 25565
+  }
+}

@@ -21,7 +21,8 @@ services:
       ENABLE_RCON: true
       ACCEPTS_TRANSFERS: true
       MANAGEMENT_SERVER_ENABLED: true
-      MANAGEMENT_SERVER_ALLOWED_ORIGINS: picolimbo,hardcore.peaksmp.org
+      MANAGEMENT_SERVER_HOST: minecraft
+      MANAGEMENT_SERVER_ALLOWED_ORIGINS: picolimbo
       MANAGEMENT_SERVER_PORT: 25556
       MANAGEMENT_SERVER_TLS_ENABLED: false
       SYNC_CHUNK_WRITES: false
@@ -38,9 +39,11 @@ services:
     tty: true
     stdin_open: true
     restart: unless-stopped
-  pico-limbo:
+  picolimbo:
     image: ghcr.io/cadenkriese/picolimbo:cookie-packets
+    hostname: picolimbo
     container_name: picolimbo
+    env_file: .env.secrets
     restart: unless-stopped
     ports:
       - 25585:25585

@@ -1,7 +1,7 @@
 # Server bind address and port
 bind = "0.0.0.0:25585"
-welcome_message = ""
-action_bar = "<aqua>Reconnecting to Peak...</aqua>"
+welcome_message = "You automatically reconnect shortly"
+action_bar = ""
 # Sets the game mode for new players
 # Allowed values: "survival", "creative", "adventure", or "spectator"
 default_game_mode = "adventure"
@@ -50,12 +50,12 @@ player_listed = true
 enabled = false
 
 [title]
-enabled = false
+enabled = true
 title = " "
 subtitle = "<aqua>Reconnecting to Peak...</aqua>"
-fade_in = 20
-stay = 100
-fade_out = 20
+fade_in = 0
+stay = 140
+fade_out = 60
 
 [commands]
 spawn = "spawn"
@@ -65,5 +65,6 @@ transfer = "transfer"
 
 [external_server]
 enabled = true
+management_hostname = "minecraft"
 management_port = 25556
-management_secret = "default_secret"
+management_secret = "${MANAGEMENT_SERVER_SECRET}"

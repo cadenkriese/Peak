@@ -16,7 +16,7 @@ EOF
   sleep 15
 
   cd "$SERVER_ROOT"
-  docker compose down
+  docker compose down minecraft
   git fetch --all
   git reset --hard
 else

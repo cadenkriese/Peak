@@ -52,6 +52,9 @@ https://cdn.modrinth.com/data/fdZkP5Bb/versions/hA27RLKS/vanilla-permissions-0.3
 #                #
 ##################
 
+# KeepAlive
+https://github.com/cadenkriese/KeepAlive/releases/download/1.0-SNAPSHOT-1/KeepAlive-1.0-SNAPSHOT.jar
+
 # MiniMOTD
 https://cdn.modrinth.com/data/16vhQOQN/versions/KdNWldBx/minimotd-fabric-mc1.21.11-2.2.2.jar
 

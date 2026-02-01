@@ -1,0 +1,69 @@
+# Server bind address and port
+bind = "0.0.0.0:25585"
+welcome_message = ""
+action_bar = "<aqua>Reconnecting to Peak...</aqua>"
+# Sets the game mode for new players
+# Allowed values: "survival", "creative", "adventure", or "spectator"
+default_game_mode = "adventure"
+# If set to true, will spawn the player in hardcode mode
+hardcore = false
+# Set to true to fetch the skin textures from Mojang API
+fetch_player_skins = true
+allow_flight = false
+accept_transfers = true
+
+[world]
+# Custom spawn position as [x, y, z] coordinates
+spawn_position = [10.0, 23.0, 6.0]
+# Custom spawn rotation as [yaw, pitch] coordinates
+spawn_rotation = [90.0, 0.0]
+# Default spawn dimension
+# Allowed values: "overworld", "nether", or "end"
+dimension = "overworld"
+
+[world.experimental]
+# Configure how many chunks are sent to clients
+view_distance = 2
+# Path to schematic file for custom world structures
+# Leave empty to disable schematic loading
+schematic_file = "hypixel.schem"
+lock_time = false
+
+[world.boundaries]
+# Enable world boundaries
+enabled = true
+# Minimum Y position, players below this will be teleported back to spawn
+min_y = -20
+teleport_message = ""
+
+[compression]
+threshold = 256
+level = 6
+
+[tab_list]
+# Enable tab list customization
+enabled = false
+player_listed = true
+
+[boss_bar]
+# Enable boss bar display
+enabled = false
+
+[title]
+enabled = false
+title = " "
+subtitle = "<aqua>Reconnecting to Peak...</aqua>"
+fade_in = 20
+stay = 100
+fade_out = 20
+
+[commands]
+spawn = "spawn"
+fly = "fly"
+fly_speed = "flyspeed"
+transfer = "transfer"
+
+[external_server]
+enabled = true
+management_port = 25585
+management_secret = "default_secret"

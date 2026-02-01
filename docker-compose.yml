@@ -22,7 +22,6 @@ services:
       SYNC_CHUNK_WRITES: false
       ENFORCE_SECURE_PROFILE: true
       OVERRIDE_SERVER_PROPERTIES: true
-      REMOVE_OLD_VANILLATWEAKS: true
       MODS_FILE: '/extras/mods.txt'
       JVM_XX_OPTS: '-XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysActAsServerClassMachine -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+UseNUMA -XX:AllocatePrefetchStyle=3 -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:+EagerJVMCI'
       JVM_DD_OPTS: '-Dgraal.TuneInlinerExploration=1 -Dgraal.CompilerConfiguration=enterprise'
@@ -34,3 +33,12 @@ services:
     tty: true
     stdin_open: true
     restart: unless-stopped
+  pico-limbo:
+    image: ghcr.io/cadenkriese/picolimbo:cookie-packets
+    container_name: picolimbo
+    restart: unless-stopped
+    ports:
+      - 25585:25585
+    volumes:
+      - ./limbo/config.toml:/usr/src/app/server.toml
+      - ./limbo/hypixel.schem:/usr/src/app/hypixel.schem

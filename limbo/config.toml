@@ -65,5 +65,5 @@ transfer = "transfer"
 
 [external_server]
 enabled = true
-management_port = 25585
+management_port = 25556
 management_secret = "default_secret"

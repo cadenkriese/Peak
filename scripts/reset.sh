@@ -39,7 +39,7 @@ EOF
   
   docker compose pull
   docker image prune -f
-  docker compose up -d
+  docker compose up minecraft
   
 else
   echo "Invalid SERVER_ROOT"

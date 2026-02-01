@@ -21,7 +21,7 @@ EOF
   sleep 15
 
   cd "$SERVER_ROOT"
-  docker compose down minecraft
+  docker compose stop minecraft
   git fetch --all
   git reset --hard
   
@@ -37,9 +37,7 @@ EOF
   tar -cvf "$SERVER_ROOT/backups/run_${NEXT_RUN}.tar.gz" "$SERVER_ROOT/data/world"
   rm -r -- "$SERVER_ROOT/data/world"
   
-  docker compose pull
-  docker image prune -f
-  docker compose up minecraft
+  docker compose start minecraft
   
 else
   echo "Invalid SERVER_ROOT"

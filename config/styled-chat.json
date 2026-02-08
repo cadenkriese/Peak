@@ -19,7 +19,7 @@
       "chat": "<hover show_text '<white>Mob Kills: %player:statistic mob_kills%\n<gray>Distance Sprinted: %player:statistic sprint_one_cm%\n<white>Time Spent Online: %player:playtime%'>%player:head% %player:displayname_visual%</hover><reset>: ${message}",
       "joined_the_game": "<c:#eeeeee>%player:head% %player:displayname_visual% joined.",
       "joined_after_name_change": "<c:#eeeeee>%player:head% ${player} (formerly ${old_name}) joined.",
-      "joined_for_first_time": "<c:#eeeeee>%player:head% ${player} joined for the first time.",
+      "joined_for_first_time": "<c:#eeeeee>%player:head% ${player} joined.",
       "left_game": "<c:#eeeeee>%player:head% %player:displayname_visual% left.",
       "base_death": "<c:#8a0200>☠</c> <white>${default_message}",
       "advancement_task": "<lang:chat.type.advancement.task:'${player}':'${advancement}'>",

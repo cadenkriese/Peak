@@ -76,8 +76,5 @@ https://cdn.modrinth.com/data/DOk6Gcdi/versions/Frwre1Jb/styled-nicknames-1.11.1
 #                #
 ##################
 
-# Shared Health
-https://cdn.modrinth.com/data/xzHWwh0L/versions/aTxOymJk/sharedhealth-1.2.10.jar
-
 # Faster Happy Ghast
 https://cdn.modrinth.com/data/ITSXgFiI/versions/ETPE63sG/faster_ghast-0.1.jar

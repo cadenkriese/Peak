@@ -1,6 +1,6 @@
 services:
   minecraft:
-    image: 'itzg/minecraft-server:java21-graalvm'
+    image: 'itzg/minecraft-server:java21'
     hostname: minecraft
     container_name: minecraft
     ports:
@@ -15,7 +15,6 @@ services:
       SIMULATION_DISTANCE: 8
       PAUSE_WHEN_EMPTY_SECONDS: 60
       DIFFICULTY: 'hard'
-      HARDCORE: true
       SPAWN_PROTECTION: 0
       ENABLE_RCON: true
       ACCEPTS_TRANSFERS: true
@@ -27,6 +26,7 @@ services:
       SYNC_CHUNK_WRITES: false
       ENFORCE_SECURE_PROFILE: true
       OVERRIDE_SERVER_PROPERTIES: true
+      DATAPACKS: 'https://cdn.modrinth.com/data/XW3ki6HN/versions/U3pcPLSy/Bingo%20datapack%201.21.11.zip'
       MODS_FILE: '/extras/mods.txt'
       JVM_XX_OPTS: '-XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysActAsServerClassMachine -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+UseNUMA -XX:AllocatePrefetchStyle=3 -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:+EagerJVMCI'
       JVM_DD_OPTS: '-Dgraal.TuneInlinerExploration=1 -Dgraal.CompilerConfiguration=enterprise'

@@ -26,6 +26,7 @@ services:
       SYNC_CHUNK_WRITES: false
       ENFORCE_SECURE_PROFILE: true
       OVERRIDE_SERVER_PROPERTIES: true
+      RESOURCE_PACK: 'https://cdn.modrinth.com/data/XW3ki6HN/versions/U3pcPLSy/Bingo%20resource%20pack%201.21.11.zip'
       DATAPACKS: 'https://cdn.modrinth.com/data/XW3ki6HN/versions/U3pcPLSy/Bingo%20datapack%201.21.11.zip'
       MODS_FILE: '/extras/mods.txt'
       JVM_XX_OPTS: '-XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysActAsServerClassMachine -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+UseNUMA -XX:AllocatePrefetchStyle=3 -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:+EagerJVMCI'

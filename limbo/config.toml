@@ -23,7 +23,7 @@ dimension = "overworld"
 
 [world.experimental]
 # Configure how many chunks are sent to clients
-view_distance = 2
+view_distance = 3
 # Path to schematic file for custom world structures
 # Leave empty to disable schematic loading
 schematic_file = "hypixel.schem"

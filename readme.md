@@ -1,8 +1,3 @@
-# 🖥 Server
+# Peak
 
-The Docker compose setup for the Peak infrastructure. The list of services managed in here include:
-
-- Minecraft Server
-- Backups
-- Website
-- nginx
+Peak is a casual Minecraft server for me and my closest friends.

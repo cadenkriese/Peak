@@ -5,10 +5,10 @@
 ##################
 
 # Fabric API
-https://cdn.modrinth.com/data/P7dR8mSH/versions/DdVHbeR1/fabric-api-0.141.1%2B1.21.11.jar
+https://cdn.modrinth.com/data/P7dR8mSH/versions/mmmOfXE7/fabric-api-0.144.3%2B26.1.jar
 
 # Text Placeholder API
-https://cdn.modrinth.com/data/eXts2L7r/versions/qxjzQ9xY/placeholder-api-2.8.2%2B1.21.10.jar
+#https://cdn.modrinth.com/data/eXts2L7r/versions/qxjzQ9xY/placeholder-api-2.8.2%2B1.21.10.jar
 
 #################
 #               #
@@ -17,16 +17,16 @@ https://cdn.modrinth.com/data/eXts2L7r/versions/qxjzQ9xY/placeholder-api-2.8.2%2
 #################
 
 # Lithium
-https://cdn.modrinth.com/data/gvQqBUqZ/versions/gl30uZvp/lithium-fabric-0.21.2%2Bmc1.21.11.jar
+https://cdn.modrinth.com/data/gvQqBUqZ/versions/W0ZXKJy9/lithium-fabric-0.22.1%2Bmc26.1.jar
 
 # Moonrise
-https://cdn.modrinth.com/data/KOHu7RCS/versions/6yAjNCEp/Moonrise-Fabric-0.9.0-beta.3%2B6cd6f34.jar
+#https://cdn.modrinth.com/data/KOHu7RCS/versions/6yAjNCEp/Moonrise-Fabric-0.9.0-beta.3%2B6cd6f34.jar
 
 # FerriteCore
-https://cdn.modrinth.com/data/uXXizFIs/versions/eRLwt73x/ferritecore-8.0.3-fabric.jar
+https://cdn.modrinth.com/data/uXXizFIs/versions/d5ddUdiB/ferritecore-9.0.0-fabric.jar
 
 # Krypton
-https://cdn.modrinth.com/data/fQEb0iXm/versions/O9LmWYR7/krypton-0.2.10.jar
+#https://cdn.modrinth.com/data/fQEb0iXm/versions/O9LmWYR7/krypton-0.2.10.jar
 
 ##################
 #                #
@@ -35,19 +35,19 @@ https://cdn.modrinth.com/data/fQEb0iXm/versions/O9LmWYR7/krypton-0.2.10.jar
 ##################
 
 # Disconnect Packet Fix
-https://cdn.modrinth.com/data/rd9rKuJT/versions/Gv74xveQ/disconnect-packet-fix-fabric-2.0.0.jar
+https://cdn.modrinth.com/data/rd9rKuJT/versions/x9gVeaTU/disconnect-packet-fix-fabric-2.1.0.jar
 
 # LuckPerms
-https://cdn.modrinth.com/data/Vebnzrzj/versions/CzCJJMuo/LuckPerms-Fabric-5.5.21.jar
+https://cdn.modrinth.com/data/Vebnzrzj/versions/fTIdfb46/LuckPerms-Fabric-5.5.42.jar
 
 # mclo.gs
-https://cdn.modrinth.com/data/6DdCzpTL/versions/YKsJI4U4/mclogs-fabric-1.21.11-3.0.11.jar
+#https://cdn.modrinth.com/data/6DdCzpTL/versions/YKsJI4U4/mclogs-fabric-1.21.11-3.0.11.jar
 
 # Spark
-https://cdn.modrinth.com/data/l6YH9Als/versions/1CB3cS0m/spark-1.10.156-fabric.jar
+https://cdn.modrinth.com/data/l6YH9Als/versions/J1GUYyGQ/spark-1.10.172-fabric.jar
 
 # Vanilla Permissions
-https://cdn.modrinth.com/data/fdZkP5Bb/versions/hA27RLKS/vanilla-permissions-0.3.3%2B1.21.11.jar
+https://cdn.modrinth.com/data/fdZkP5Bb/versions/T76gKrsg/vanilla-permissions-0.3.5%2B26.1.jar
 
 ##################
 #                #
@@ -56,19 +56,19 @@ https://cdn.modrinth.com/data/fdZkP5Bb/versions/hA27RLKS/vanilla-permissions-0.3
 ##################
 
 # KeepAlive
-https://github.com/cadenkriese/KeepAlive/releases/download/1.0-SNAPSHOT-1/KeepAlive-1.0-SNAPSHOT.jar
+#https://github.com/cadenkriese/KeepAlive/releases/download/1.0-SNAPSHOT-1/KeepAlive-1.0-SNAPSHOT.jar
 
 # MiniMOTD
-https://cdn.modrinth.com/data/16vhQOQN/versions/KdNWldBx/minimotd-fabric-mc1.21.11-2.2.2.jar
+#https://cdn.modrinth.com/data/16vhQOQN/versions/KdNWldBx/minimotd-fabric-mc1.21.11-2.2.2.jar
 
 # Styled Chat
-https://cdn.modrinth.com/data/doqSKB0e/versions/nW0Cfq7D/styled-chat-2.11.0%2B1.21.11.jar
+https://cdn.modrinth.com/data/doqSKB0e/versions/V5imDrbM/styled-chat-2.12.0-pre.1%2B26.1.jar
 
 # Styled Player List
-https://cdn.modrinth.com/data/DQIfKUHf/versions/YpJjE4zz/styledplayerlist-3.10.0%2B1.21.11.jar
+https://cdn.modrinth.com/data/DQIfKUHf/versions/KG1Y7uJ6/styledplayerlist-3.11.0%2B26.1.jar
 
 # Styled Nicknames
-https://cdn.modrinth.com/data/DOk6Gcdi/versions/Frwre1Jb/styled-nicknames-1.11.1%2B1.21.11.jar
+https://cdn.modrinth.com/data/DOk6Gcdi/versions/OePo5uuc/styled-nicknames-1.12.0%2B26.1.jar
 
 ##################
 #                #
@@ -77,4 +77,4 @@ https://cdn.modrinth.com/data/DOk6Gcdi/versions/Frwre1Jb/styled-nicknames-1.11.1
 ##################
 
 # Faster Happy Ghast
-https://cdn.modrinth.com/data/ITSXgFiI/versions/ETPE63sG/faster_ghast-0.1.jar
+#https://cdn.modrinth.com/data/ITSXgFiI/versions/ETPE63sG/faster_ghast-0.1.jar

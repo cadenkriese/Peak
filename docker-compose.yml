@@ -1,6 +1,6 @@
 services:
   minecraft:
-    image: 'itzg/minecraft-server:java21'
+    image: 'itzg/minecraft-server:java25'
     hostname: minecraft
     container_name: minecraft
     ports:
@@ -8,7 +8,7 @@ services:
     environment:
       EULA: true
       TYPE: 'FABRIC'
-      VERSION: '1.21.11'
+      VERSION: '26.1'
       MEMORY: '12G'
       MAX_PLAYERS: 5
       VIEW_DISTANCE: 12

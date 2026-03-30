@@ -5,10 +5,7 @@
 ##################
 
 # Fabric API
-https://cdn.modrinth.com/data/P7dR8mSH/versions/mmmOfXE7/fabric-api-0.144.3%2B26.1.jar
-
-# Text Placeholder API
-#https://cdn.modrinth.com/data/eXts2L7r/versions/qxjzQ9xY/placeholder-api-2.8.2%2B1.21.10.jar
+https://cdn.modrinth.com/data/P7dR8mSH/versions/Xsmcjuhk/fabric-api-0.144.4%2B26.1.jar
 
 #################
 #               #
@@ -41,7 +38,7 @@ https://cdn.modrinth.com/data/rd9rKuJT/versions/x9gVeaTU/disconnect-packet-fix-f
 https://cdn.modrinth.com/data/Vebnzrzj/versions/fTIdfb46/LuckPerms-Fabric-5.5.42.jar
 
 # mclo.gs
-#https://cdn.modrinth.com/data/6DdCzpTL/versions/YKsJI4U4/mclogs-fabric-1.21.11-3.0.11.jar
+https://cdn.modrinth.com/data/6DdCzpTL/versions/ECkM3yd0/mclogs-fabric-26.1-3.2.0.jar
 
 # Spark
 https://cdn.modrinth.com/data/l6YH9Als/versions/J1GUYyGQ/spark-1.10.172-fabric.jar
@@ -69,12 +66,3 @@ https://cdn.modrinth.com/data/DQIfKUHf/versions/KG1Y7uJ6/styledplayerlist-3.11.0
 
 # Styled Nicknames
 https://cdn.modrinth.com/data/DOk6Gcdi/versions/OePo5uuc/styled-nicknames-1.12.0%2B26.1.jar
-
-##################
-#                #
-#    GAMEPLAY    #
-#                #
-##################
-
-# Faster Happy Ghast
-#https://cdn.modrinth.com/data/ITSXgFiI/versions/ETPE63sG/faster_ghast-0.1.jar

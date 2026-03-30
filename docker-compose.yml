@@ -16,8 +16,8 @@ services:
       DIFFICULTY: 'hard'
       SPAWN_PROTECTION: 0
       SYNC_CHUNK_WRITES: false
-      RESOURCE_PACK: 'https://mcpacks.dev/pack/714187ba-c4d5-41ad-9a54-a3651d55fb42/download'
-      RESOURCE_PACK_SHA1: '2bf3b604634d6fef6326f11c9476029cd3e0dbdf'
+      RESOURCE_PACK: 'https://cdn.modrinth.com/data/XW3ki6HN/versions/yAs65rmB/Bingo%20resource%20pack%2026.1.zip'
+      RESOURCE_PACK_SHA1: '238f3ef8d4395ad5ef1f9c5aa752c1f8f974b247'
       RESOURCE_PACK_ENFORCE: true
       ENABLE_RCON: true
       ACCEPTS_TRANSFERS: true
@@ -26,7 +26,7 @@ services:
       MANAGEMENT_SERVER_ALLOWED_ORIGINS: picolimbo
       MANAGEMENT_SERVER_PORT: 25556
       MANAGEMENT_SERVER_TLS_ENABLED: false
-      DATAPACKS: 'https://cdn.modrinth.com/data/XW3ki6HN/versions/U3pcPLSy/Bingo%20datapack%201.21.11.zip'
+      DATAPACKS: 'https://cdn.modrinth.com/data/XW3ki6HN/versions/yAs65rmB/Bingo%20datapack%2026.1.zip'
       MODS_FILE: '/extras/mods.txt'
       JVM_XX_OPTS: '-XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+AlwaysActAsServerClassMachine -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+UseNUMA -XX:AllocatePrefetchStyle=3 -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:+EagerJVMCI'
     volumes:

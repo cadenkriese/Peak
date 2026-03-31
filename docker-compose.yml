@@ -3,6 +3,8 @@ services:
     image: 'itzg/minecraft-server:java25'
     hostname: minecraft
     container_name: minecraft
+    labels:
+      - dev.orbstack.domains=peak.local
     ports:
       - 25565:25565
     environment:
@@ -42,6 +44,8 @@ services:
     image: ghcr.io/cadenkriese/picolimbo:cookie-packets
     hostname: picolimbo
     container_name: picolimbo
+    labels:
+      - dev.orbstack.domains=limbo.local
     env_file: .env.secrets
     restart: unless-stopped
     ports:

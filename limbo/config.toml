@@ -1,6 +1,6 @@
 # Server bind address and port
 bind = "0.0.0.0:25585"
-welcome_message = "You will automatically reconnect soon."
+welcome_message = "Reconnecting to Peak..."
 action_bar = ""
 # Sets the game mode for new players
 # Allowed values: "survival", "creative", "adventure", or "spectator"
@@ -50,9 +50,9 @@ player_listed = true
 enabled = false
 
 [title]
-enabled = true
-title = " "
-subtitle = "<italic>Reconnecting to Peak...</italic>"
+enabled = false
+title = ""
+subtitle = ""
 fade_in = 0
 stay = 140
 fade_out = 50

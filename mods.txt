@@ -5,7 +5,7 @@
 ##################
 
 # Fabric API
-https://cdn.modrinth.com/data/P7dR8mSH/versions/Xsmcjuhk/fabric-api-0.144.4%2B26.1.jar
+https://cdn.modrinth.com/data/P7dR8mSH/versions/wMEs7cO8/fabric-api-0.145.0%2B26.1.jar
 
 #################
 #               #

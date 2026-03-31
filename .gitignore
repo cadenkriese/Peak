@@ -5,6 +5,10 @@
 .env.secrets
 nginx/ssl
 
+# Local overrides
+docker-compose.override.yml
+config/keepalive.local.json
+
 # Data & Backups
 backups/
 data/

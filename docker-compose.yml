@@ -13,7 +13,10 @@ services:
       VERSION: '26.1'
       MEMORY: '12G'
       MAX_PLAYERS: 5
-      MOTD: '§b                              Peak§r\n§7                §oAnd bingo was his name-o!'
+      MOTD: |
+        §b§l                       Peak
+        §7                §oAnd bingo was his name-o!
+      ICON: https://github.com/cadenkriese/Peak/blob/main/config/MiniMOTD/icons/peak.png?raw=true
       VIEW_DISTANCE: 12
       SIMULATION_DISTANCE: 8
       DIFFICULTY: 'hard'

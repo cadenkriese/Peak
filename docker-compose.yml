@@ -11,7 +11,7 @@ services:
       EULA: true
       TYPE: 'FABRIC'
       VERSION: '26.1'
-      MEMORY: '12G'
+      MEMORY: '10G'
       MAX_PLAYERS: 5
       MOTD: |
         §b§l                       Peak

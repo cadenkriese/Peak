@@ -9,22 +9,19 @@ services:
       - 25565:25565
     environment:
       EULA: true
-      TYPE: 'FABRIC'
-      VERSION: '26.1'
+      TYPE: 'VANILLA'
+      VERSION: '26w14a'
       MEMORY: '10G'
       MAX_PLAYERS: 5
       MOTD: |
         §b§l                       Peak
-        §7                §oAnd bingo was his name-o!
+        §7§o           Goodbye inventory, hello ingenuity!
       ICON: https://github.com/cadenkriese/Peak/blob/main/config/MiniMOTD/icons/peak.png?raw=true
       VIEW_DISTANCE: 12
       SIMULATION_DISTANCE: 8
-      DIFFICULTY: 'hard'
+      DIFFICULTY: 'easy'
       SPAWN_PROTECTION: 0
       SYNC_CHUNK_WRITES: false
-      RESOURCE_PACK: 'https://cdn.modrinth.com/data/XW3ki6HN/versions/yAs65rmB/Bingo%20resource%20pack%2026.1.zip'
-      RESOURCE_PACK_SHA1: '238f3ef8d4395ad5ef1f9c5aa752c1f8f974b247'
-      RESOURCE_PACK_ENFORCE: true
       ENABLE_RCON: true
       ACCEPTS_TRANSFERS: true
       MANAGEMENT_SERVER_ENABLED: true
@@ -32,8 +29,6 @@ services:
       MANAGEMENT_SERVER_ALLOWED_ORIGINS: picolimbo
       MANAGEMENT_SERVER_PORT: 25556
       MANAGEMENT_SERVER_TLS_ENABLED: false
-      DATAPACKS: 'https://cdn.modrinth.com/data/XW3ki6HN/versions/yAs65rmB/Bingo%20datapack%2026.1.zip'
-      MODS_FILE: '/extras/mods.txt'
       JVM_XX_OPTS: '-XX:+UseShenandoahGC
         -XX:ShenandoahGCMode=generational
         -XX:+AlwaysPreTouch
@@ -44,22 +39,7 @@ services:
         -XX:+UseTransparentHugePages'
     volumes:
       - ./data:/data
-      - ./mods.txt:/extras/mods.txt:ro
-      - ./config:/config
     env_file: .env.secrets
     tty: true
     stdin_open: true
     restart: unless-stopped
-  picolimbo:
-    image: ghcr.io/cadenkriese/picolimbo:cookie-packets
-    hostname: picolimbo
-    container_name: picolimbo
-    labels:
-      - dev.orbstack.domains=limbo.local
-    env_file: .env.secrets
-    restart: unless-stopped
-    ports:
-      - 25585:25585
-    volumes:
-      - ./limbo/config.toml:/usr/src/app/server.toml
-      - ./limbo/hypixel.schem:/usr/src/app/hypixel.schem

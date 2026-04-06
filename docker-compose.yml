@@ -9,11 +9,11 @@ services:
       EULA: true
       TYPE: 'FABRIC'
       VERSION: '1.21.11'
-      MEMORY: '12G'
+      MEMORY: '10G'
       MAX_PLAYERS: 5
       VIEW_DISTANCE: 12
       SIMULATION_DISTANCE: 8
-      DIFFICULTY: 'hard'
+      DIFFICULTY: 'easy'
       SPAWN_PROTECTION: 0
       SYNC_CHUNK_WRITES: false
       RESOURCE_PACK: 'https://mcpacks.dev/pack/714187ba-c4d5-41ad-9a54-a3651d55fb42/download'

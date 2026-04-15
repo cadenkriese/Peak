@@ -13,7 +13,7 @@ services:
       VERSION: '26.1.2'
       MEMORY: '10G'
       MAX_PLAYERS: 5
-      VIEW_DISTANCE: 12
+      VIEW_DISTANCE: 16
       SIMULATION_DISTANCE: 8
       DIFFICULTY: 'hard'
       SPAWN_PROTECTION: 0

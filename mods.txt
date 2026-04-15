@@ -14,7 +14,7 @@ https://cdn.modrinth.com/data/P7dR8mSH/versions/IWDXHj9j/fabric-api-0.145.2%2B26
 #################
 
 # Lithium
-https://cdn.modrinth.com/data/gvQqBUqZ/versions/W0ZXKJy9/lithium-fabric-0.22.1%2Bmc26.1.jar
+https://cdn.modrinth.com/data/gvQqBUqZ/versions/v2xoRvRP/lithium-fabric-0.24.1%2Bmc26.1.2.jar
 
 # Moonrise
 #https://cdn.modrinth.com/data/KOHu7RCS/versions/6yAjNCEp/Moonrise-Fabric-0.9.0-beta.3%2B6cd6f34.jar
@@ -56,7 +56,7 @@ https://cdn.modrinth.com/data/fdZkP5Bb/versions/T76gKrsg/vanilla-permissions-0.3
 https://github.com/cadenkriese/KeepAlive/releases/download/1.0-SNAPSHOT-2/KeepAlive-1.0-SNAPSHOT.jar
 
 # MiniMOTD
-#https://cdn.modrinth.com/data/16vhQOQN/versions/KdNWldBx/minimotd-fabric-mc1.21.11-2.2.2.jar
+https://cdn.modrinth.com/data/16vhQOQN/versions/o5VUklNM/minimotd-fabric-mc26.1.2-2.2.3.jar
 
 # Styled Chat
 https://cdn.modrinth.com/data/doqSKB0e/versions/V5imDrbM/styled-chat-2.12.0-pre.1%2B26.1.jar

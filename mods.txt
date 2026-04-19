@@ -5,7 +5,7 @@
 ##################
 
 # Fabric API
-https://cdn.modrinth.com/data/P7dR8mSH/versions/IWDXHj9j/fabric-api-0.145.2%2B26.1.1.jar
+https://cdn.modrinth.com/data/P7dR8mSH/versions/tnmuHGZA/fabric-api-0.146.1%2B26.1.2.jar
 
 #################
 #               #
@@ -14,16 +14,13 @@ https://cdn.modrinth.com/data/P7dR8mSH/versions/IWDXHj9j/fabric-api-0.145.2%2B26
 #################
 
 # Lithium
-https://cdn.modrinth.com/data/gvQqBUqZ/versions/v2xoRvRP/lithium-fabric-0.24.1%2Bmc26.1.2.jar
+https://cdn.modrinth.com/data/gvQqBUqZ/versions/R7MxYvuW/lithium-fabric-0.24.2%2Bmc26.1.2.jar
 
 # Moonrise
 #https://cdn.modrinth.com/data/KOHu7RCS/versions/6yAjNCEp/Moonrise-Fabric-0.9.0-beta.3%2B6cd6f34.jar
 
 # FerriteCore
 https://cdn.modrinth.com/data/uXXizFIs/versions/d5ddUdiB/ferritecore-9.0.0-fabric.jar
-
-# Krypton
-#https://cdn.modrinth.com/data/fQEb0iXm/versions/O9LmWYR7/krypton-0.2.10.jar
 
 ##################
 #                #
